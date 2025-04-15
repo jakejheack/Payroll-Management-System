@@ -1,0 +1,898 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: Auto;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; */
+    background-color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 14px;
+}
+
+.contain_login{
+    background-color: white;
+    width: 20%;
+    margin: 10% 35%;
+    padding: 2% 5%;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(119, 116, 116);
+    border-right: 2px solid rgb(119, 116, 116);
+    line-height: 3em;
+}
+
+.contain_login input{
+    padding: 0.5em;
+    width: 100%;
+}
+
+#user_id{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+}
+
+#pw{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+}
+
+#search{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    width: 30%;
+}
+
+.contain_login input[type="submit"]{
+    border: none;
+    width: 80%;
+    background-color: rgb(48, 134, 48);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10% 0 0 0;
+    border-radius: 3px;
+}
+
+.contain_login input[type="submit"]:hover{
+    background-color: rgb(44, 148, 44);
+}
+
+.left_menu{
+    float: left;
+    width: 20%;
+    line-height: 1.7em;
+    position: fixed;
+    box-sizing: border-box;
+    border-right: 2px white solid;
+    background: linear-gradient(30deg, rgb(149, 160, 160), rgb(9, 114, 117), rgb(39, 128, 131), rgb(76, 155, 158));
+    padding-bottom: 100%;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.left_menu .titled{
+    background: linear-gradient(30deg, rgb(136, 231, 235), rgb(155, 207, 209),rgb(164, 235, 236));
+    /* background-color: rgb(206, 235, 172); */
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    border-bottom: 1px solid white;
+}
+
+.left_menu .titled img{
+    width: 90%;
+    height: 70px;
+}
+
+/* menus */
+.left_menu .menus{
+    padding: 1em 1.7em;
+    /* background-color: rgb(26, 102, 26); */
+    /* background: linear-gradient(30deg, rgb(126, 116, 116), rgb(6, 53, 139), rgb(21, 53, 139), rgb(6, 53, 139)); */
+    color: rgb(236, 183, 69);
+    padding-bottom: 100%;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.left_menu .menus li{
+    list-style: none;
+    font-weight: 700;
+}
+
+.left_menu .menus ul ul{
+    margin-left: 0.7em;
+}
+
+.left_menu .menus ul ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.left_menu .menus ul ul li a:hover{
+    color: rgb(245, 214, 42);
+    border-bottom: 1px solid;
+}
+
+.left_menu .menus ul ul li a ion-icon{
+    width: 15px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.containers{
+    margin: 0 0 20% 0;
+    float: right;
+    width: 100%;
+    box-sizing: border-box;
+    /* position: fixed; */
+}
+
+.containers h3{
+    width: 80%;
+    margin: 0 0 0 20%;
+    background-color: rgb(9, 114, 117);
+    color: yellow;
+    border-bottom: 1px rgba(68, 64, 64, 0.849) solid;
+    padding: 1.1em 0 0 1em;
+    height: 70px;
+    font-size: 1.5rem;
+    position: fixed;
+}
+
+.containers .contents{
+    /* position: fixed; */
+    width: 70%;
+    margin: 100px 0 0 20%;
+    padding: 1% 0 10% 3%;
+}
+
+.containers .contents table{
+    margin-top: 1em;
+    width: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    border-collapse: collapse;
+}
+
+/* .containers .contents table tr td, .containers .contents table tr th{
+    border: 1px solid rgb(116, 108, 108);
+} */
+
+.containers .contents select{
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+/* .containers .contents .employee_list table thead{
+    background-color: rgb(9, 114, 117);
+    color: white;
+    border: 1px solid rgb(156, 149, 149);
+}
+
+.containerss .contents .employee_list table tfoot{
+    background-color: rgb(87, 180, 184);
+    color: black;
+    border: 1px solid rgb(156, 149, 149);
+}
+
+.containers .contents .employee_list table thead th{
+    padding: 0 0.2em;
+    border: 1px solid rgb(156, 149, 149);
+}
+
+.containers .contents .employee_list table tbody tr td.tdl{
+    text-align: left;
+    padding: 0.3em 0.5em;
+}
+
+.containers .contents .employee_list table tbody tr td{
+    border: 1px solid rgb(156, 149, 149);
+}
+
+.containers .contents .employee_list table tbody tr:nth-child(even){
+    background-color: rgb(185, 236, 238);
+}
+
+.containers .contents .employee_list table tbody tr:hover{
+    background-color: rgb(132, 246, 250);
+} */
+
+.containers .contents input[type="text"]{
+    padding: 0.2em 0.5em;
+}
+
+.contents table tr td a, .contents table tr td input[type="button"]{
+    text-decoration: none;
+    padding: 0.2em 0.5em;
+    margin: 3% 1%;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
+.contents table tr td a.view img{
+    /* background-color: rgb(24, 71, 173); */
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.contents table tr td a.sched img{ 
+    /* background-color: rgb(136, 11, 115); */
+    color: white;
+    width: 25px;
+    height: 20px;
+}
+
+.contents table tr td a.dtr{
+    background-color: rgb(167, 81, 11);
+    color: white;
+}
+
+/* .contents table tr td a.view:hover img{
+    background-color: rgb(54, 100, 201);
+    color: white;
+}
+
+.contents table tr td a.sched:hover img{
+    background-color: rgb(184, 21, 156);
+    color: white;
+}
+
+.contents table tr td a.dtr:hover{
+    background-color: rgb(197, 108, 35);
+    color: white;
+} */
+
+.contents table tfoot tr td img{
+    width: 12px;
+}
+
+.contents .add_form form table{
+    border-collapse: separate;
+    padding: 0;
+    margin: 0;
+}
+
+.contents .add_form form table tr{
+    background-color: transparent;
+}
+
+.contents .add_form form table tr td{
+    text-align: left;
+    padding: 0 0.7em;
+}
+
+.contents .add_form form table tr td input, .contents .add_form form table tr td select{
+    padding: 0;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.contents .add_form form table tr td input[type="checkbox"]{
+    width: 20%;
+    padding: 0;
+    margin: 0; 
+    cursor: pointer;
+}
+
+.contents .add_form form table tr td input[type="text"]{
+    padding: 0;
+    padding: 0.5em;
+}
+
+.contents .add_form form table tr td input[type="submit"]{
+    border: none;
+    margin: 1em;
+    cursor: pointer;
+    background-color: rgb(24, 71, 173);
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+
+.contents .add_form form table tr td input[type="submit"]:hover{
+    background-color: rgb(23, 38, 71);
+}
+
+.contents form.sched{
+    line-height: 1.3em;
+}
+
+.contents form.sched input, .contents form.sched label{
+    cursor: pointer;
+}
+
+.contents form.sched input[type="submit"]{
+    border: none;
+    padding: 0.3em 0.7em;
+    cursor: pointer;
+    background-color: rgb(24, 71, 173);
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+
+.contents form.sched input[type="submit"]:hover{
+    background-color: rgb(23, 38, 71);
+}
+
+.contents form.sched b{
+    color: red;
+}
+
+.contents form.sched table{
+    line-height: 1em;
+    width: 47.5%;
+    margin: 1% ;
+}
+
+.contents form.sched thead, .contents form.sched table tbody tr td, .contents form.sched table tbody tr th{
+    border: 1px solid rgb(156, 149, 149);
+    padding: 0.1em;
+}
+
+.contents form.sched table.day1{
+    float: left;
+}
+
+.contents form.sched table.day2{
+    float: right;
+}
+
+.contents form.sched table thead tr th{
+    background-color: rgb(9, 114, 117);
+    color: white;
+    padding: 0.1em;
+}
+
+#submit_sched{
+    float: left;
+    width: 100%;
+    padding: 0.5em;
+    line-height: 1.7em;
+}
+
+#submit_sched a{
+    text-decoration: none;
+    background-color: rgb(201, 70, 53);
+    color: white;
+    font-weight: 600;
+    padding: 0.2em 0.5em;
+    border-radius: 3px;
+}
+
+#submit_sched a:hover{
+    background-color: rgb(201, 40, 19);
+}
+
+.containers .contents .add_form form table tr td label{
+    color: red;
+    font-weight: 700;
+}
+
+.containers .contents .payrolls table thead, .containers .contents .payrolls table tfoot{
+    font-size: 0.8em;
+}
+
+.containers .contents .payrolls table tbody{
+    font-size: 0.9em;
+}
+
+/* .containers .contents .payrolls table thead tr .ths{
+    width: 10px;
+    transform: rotate(75deg);
+} */
+
+.containers .contents .payrolls table tbody tr td, .containers .contents .payrolls table thead tr th, .containers .contents .payrolls tfoot{
+    border: 1px solid rgb(153, 146, 146);
+}
+
+.containers .contents .payrolls table thead{
+    background-color: rgb(9, 114, 117);
+    color: white;
+}
+
+.containers .contents .payrolls table tfoot{
+    background-color: rgb(68, 180, 184);
+    color: black;
+}
+
+.containers .contents .payrolls table thead tr th{
+    padding: 0;
+    margin: 0;
+}
+
+.containers .contents .payrolls table tbody tr td.tdl{
+    text-align: left;
+    padding: 0 0.1em;
+}
+
+.containers .contents .payrolls table tbody tr:nth-child(even){
+    background-color: rgb(185, 236, 238);
+}
+
+.containers .contents .payrolls table tbody tr:hover{
+    background-color: rgb(147, 228, 250);
+}
+
+.containers .contents .employee_list table tbody tr td button{
+    background-color: rgb(206, 47, 47);
+    color: white;
+    border: none;
+    padding: 0.3em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.containers .contents .employee_list table tbody tr td button:hover{
+    background-color: red;
+}
+
+.containers .contents form.hol_add{
+    line-height: 2.5em;
+    padding-bottom: 1em;
+    border-bottom: 2px rgb(100, 93, 93) solid;
+}
+
+.containers .contents form.hol_add input, .containers .contents form.hol_add select{
+    padding: 0.3em 0.5em;
+}
+
+.containers .contents form.hol_add [type="submit"]{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(24, 71, 173);
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+
+.containers .contents form.hol_add input[type="submit"]:hover{
+    background-color: rgb(23, 38, 71);
+}
+
+#bars{
+    display: none;
+    border: 1px black solid;
+}
+
+/* .containers .contents .payrolls table{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.containers .contents .payrolls table tbody, .containers .contents .payrolls table thead, .containers .contents .payrolls table tfoot{
+    display: table;
+    width: 100%;
+} */
+
+.containers .contents .opt_start{
+    float: right;
+}
+
+.containers .contents .opt_start a{
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    margin-left: 5px;
+    color: white;
+    border-radius: 3px;
+}
+
+.containers .contents .opt_start a.starts{
+    background-color: rgb(24, 71, 173);
+}
+
+.containers .contents .opt_start a.ends{
+    background-color: rgb(173, 79, 24);
+}
+
+.containers .contents .opt_start a.starts:hover{
+    background-color: rgb(8, 74, 218);
+}
+
+.containers .contents .opt_start a.ends:hover{
+    background-color: rgb(224, 93, 18);
+}
+
+.containers .contents .pay_date input[type="submit"]{
+    background-color: rgb(16, 136, 70);
+    color: white;
+    border: none;
+    padding: 0.3em 0.5em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.containers .contents .pay_date input[type="submit"]:hover{
+    background-color: rgb(27, 179, 95);
+}
+
+.containers .contents .date_covered table, .date_covered table thead th, .date_covered table tbody tr td, .date_covered table tfoot tr th{
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.containers .contents .salary_sheet table, .salary_sheet table tbody tr th, .salary_sheet table tbody tr td{
+    border: 1px solid rgb(177, 171, 171);
+}
+
+.containers .contents .salary_sheet .earnings{
+    float: left;
+    box-sizing: border-box;
+    width: 48%;
+}
+
+.containers .contents .salary_sheet .deductions{
+    float: right;
+    box-sizing: border-box;
+    width: 48%;
+}
+
+.containers .contents .salary_sheet .deductions input[type="number"]{
+    padding: 0.2em;
+    font-size: 0.9rem;
+    margin: 0.3em 0;
+}
+
+.containers .contents .salary_sheet input[type="submit"]{
+    margin-top: 20px;
+    background-color: rgb(35, 49, 172);
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(212, 199, 199);
+    border-right: 2px solid rgb(212, 199, 199);
+}
+
+.containers .contents .salary_sheet input[type="submit"]:hover{
+    background-color: rgb(13, 31, 197);
+}
+
+.containers .contents .pay_dtr{
+    float: right;
+}
+
+.containers .contents .pay_dtr a{
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    margin-left: 5px;
+    color: white;
+    border-radius: 3px;
+}
+
+.containers .contents .pay_dtr a.pay-list{
+    background-color: rgb(24, 71, 173);
+}
+
+.containers .contents .pay_dtr a.dtr-s{
+    background-color: rgb(173, 79, 24);
+}
+
+.containers .contents .pay_dtr a.pay-list:hover{
+    background-color: rgb(8, 74, 218);
+}
+
+.containers .contents .pay_dtr a.dtr-s:hover{
+    background-color: rgb(224, 93, 18);
+}
+
+.containers .contents .add_form form input[type="file"]{     
+    display: none;
+}
+
+.containers .contents .add_form form label img{
+    cursor: pointer;
+    /* float: right; */
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(107, 106, 106);
+}
+
+.containers .contents .add_form table tr td button{
+    border: none;
+    float: left;
+    margin-left: 13px;
+}
+
+.containers .contents .add_form table tr td button img{
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(107, 106, 106);
+}
+
+.containers .contents .add_form table tr td .barcodes{
+    float: right;
+    padding: 0.3em 0.7em;
+    border: 1px solid rgb(107, 106, 106);
+}
+
+/* modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 8;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.664);
+  }
+  .modal-content {
+    margin: 5% auto;
+    border: 1px solid rgb(146, 141, 141);
+    box-shadow: 0 2px 5px #ffffff;
+    background-color: #eee;
+    width: 30%;
+    text-align: center;
+  }
+  .modal h2,.modal p {
+    margin: 0 0 20px;
+    font-weight: 500;
+    color: rgb(37, 134, 24);
+  }
+  .modal form {
+    padding: 25px;
+    margin: 25px;
+    background: #eee;
+  }
+  .contact-form input[type="submit"]{
+    width: 80%;
+    margin: 0 10%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    background: #2e408f;
+    /* font-size: 16px; */
+    /* font-weight: 500; */
+    color: white;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background: #4458af;
+  }
+
+  .containers .contents button.button{
+    padding: 0;
+    margin: 0;
+    /* background-color: transparent;
+    width: 10em;
+    color: black; */
+  }
+
+  .modal .modal-content .contact-form form img{
+    cursor: pointer;
+    /* float: right; */
+    padding: 0;
+    margin: 0;
+    width: 230px;
+    height: 230px;
+    border: 1px solid rgb(107, 106, 106);
+  }
+
+  .close {
+    padding: 2px 5px;
+    margin: 0;
+    color: rgb(209, 26, 26);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: rgb(201, 96, 96);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal .modal-content .contact-form form input[type="file"]{
+    display: none;
+  }
+
+/* departments & positions */
+.containers .contents .pos_dept{
+    width: 40%;
+    margin: 0 30%;
+}
+
+.containers .contents .pos_dept table tr td{
+    text-align: left;
+    border: 1px solid rgb(202, 196, 196);
+    text-indent: 1em;
+}
+
+.containers .contents .pos_dept table tbody tr:nth-child(even){
+    background-color: rgb(224, 222, 222);
+}
+
+.containers .contents .pos_dept table tbody tr:hover{
+    background-color: rgb(204, 202, 202);
+}
+
+.containers .contents .pos_dept table tr th{
+    background-color: rgb(29, 24, 24);
+    color: white;
+    border: 1px solid rgb(29, 24, 24);
+}
+
+.containers .contents .pos_dept .button{
+    background-color: rgb(13, 129, 90);
+    color: white;
+    border: none;
+    padding: 0.3em;
+    border-radius: 3px;
+    width: 20%;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.containers .contents .pos_dept .button:hover{
+    background-color: rgb(48, 182, 137);
+}
+
+/* modal department & positions */
+.modal .modal-content .dept-form{
+    line-height: 2.5em;
+    text-align: left;
+}
+
+.modal .modal-content .dept-form form input[type="text"]{
+    width: 100%;
+    padding: 0.5em;
+}
+
+.modal .modal-content .dept-form form input[type="submit"]{
+    padding: 0.5em;
+    margin-left: 70%;
+    margin-top: 12px;
+    width: 35%;
+    cursor: pointer;
+    background-color: #2e408f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.modal .modal-content .dept-form form input[type="submit"]:hover{
+    background-color: #1336cf;
+}
+
+/* dashboard */
+.containers .contents .dashboard{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.containers .contents .dashboard table td{
+    width: 33.33%;
+    height: 100px;
+    border: 10px solid whitesmoke;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.containers .contents .dashboard img{
+    width: 64px;
+    padding-top: 10px;
+}
+
+.containers .contents .dashboard table td b{
+    color: rgb(54, 54, 54);
+}
+
+.containers .contents .dashboard table tr td h2{
+    font-size: 27px;
+    padding: 5px;
+    color: rgb(196, 162, 11);
+}
+.containers .contents .dashboard table tr.head_ td h2{
+    font-size: 43px;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* account settings */
+.containers .contents .account_settings form{
+    line-height: 2em;
+    padding: 0 3em;
+}
+
+.containers .contents .account_settings form label{
+    color: red;
+}
+
+.containers .contents .account_settings form input, .containers .contents .account_settings form select{
+    padding: 0.5em 1em;
+    margin: 0.3em 0;
+    width: 300px;
+    font-weight: 700;
+}
+
+.containers .contents .account_settings form select{
+    width: 330px;
+}
+
+.containers .contents .account_settings form input[type="submit"]{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 1em;
+    width: 150px;
+    margin-left: 75px;
+    background-color: #1336cf;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.containers .contents .account_settings form input[type="submit"]:hover{
+    background-color: #041663;
+}
+
+/* payroll summary */
+/* .containers .contents .payroll_summary table{
+    font-size: 12px;
+}
+
+.containers .contents .payroll_summary table tr, .containers .contents .payroll_summary table td, .payroll_summary table th{
+    border: 1px rgb(184, 182, 182) solid;
+    padding: 3px 1px;
+}
+
+.payroll_summary table th{
+    background-color: rgb(9, 114, 117);
+    color: white;
+} */
+
+.payroll_summary button.button{
+    background-color: #2c42a3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+}
+
+.payroll_summary button.button:hover{
+    background-color: #5b71cf;
+}
+
+.payroll_create_modal .modal-content .create_payroll form{
+    line-height: 2em;
+    text-align: left;
+}
+
+.modal-content .create_payroll form input, .modal-content .create_payroll form select{
+    width: 300px;
+    text-align: center;
+    padding: 0.5em 0;
+    cursor: pointer;
+}
+
+.modal-content .create_payroll form input[type="submit"]{
+    margin-top: 20px;
+    background-color: #2c42a3;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.modal-content .create_payroll form input[type="submit"]:hover{
+    background-color: #0230fd;
+}

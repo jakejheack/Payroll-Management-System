@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: Auto;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.left_menu{
+    float: left;
+    width: 20%;
+    line-height: 1.7em;
+    position: fixed;
+    box-sizing: border-box;
+    border-right: 2px white solid;
+}
+
+.left_menu .titled{
+    background-color: rgb(135, 218, 40);
+    color: white;
+    text-align: center;
+    padding: 1.5em 0.5em;
+    border-bottom: 1px solid white;
+}
+
+.left_menu .menus{
+    padding: 1em 1.7em;
+    background-color: rgb(58, 55, 55);
+    color: rgb(245, 214, 42);
+    padding-bottom: 100%;
+}
+
+.left_menu .menus li{
+    list-style: none;
+    font-weight: 700;
+}
+
+.left_menu .menus ul ul{
+    margin-left: 0.7em;
+}
+
+.left_menu .menus ul ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.left_menu .menus ul ul li a:hover{
+    color: rgb(225, 236, 69);
+}
+
+.container{
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.container h3{
+    background-color: rgb(218, 40, 40);
+    color: white;
+    border-bottom: 2px rgba(68, 64, 64, 0.849) solid;
+    padding: 1.3em 2em;
+}
+
+.container .contents{
+    margin: 3% 10%;
+    padding: 1% 0 10% 1%;
+}
+
+.container .contents table{
+    margin-top: 1em;
+    width: 99%;
+    text-align: center;
+    line-height: 1.7em;
+    border-collapse: collapse;
+    border-bottom: 2px rgba(95, 93, 93, 0.842) solid;
+    border-left: 2px rgba(95, 93, 93, 0.849) solid;
+}
+
+.container .contents table tr td, .container .contents table tr th{
+    border: 1px solid rgb(116, 108, 108);
+}
+
+.container .contents table thead{
+    background-color: rgb(218, 40, 40);
+    color: white;
+}
+
+.container .contents input[type="text"]{
+    padding: 0.2em 0.5em;
+}
+
+.contents table tr td a, .contents table tr td input[type="button"]{
+    text-decoration: none;
+    padding: 0.2em 0.5em;
+    margin: 3% 1%;
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    border: none;
+}
+
+.contents table tr td .a_pay{
+    background-color: rgb(11, 113, 172);
+}
+
+.contents table tr td .a_pay:hover{
+    background-color: rgb(10, 83, 126);
+}
+
+.contents table tr td .a_edit{
+    background-color: rgb(12, 173, 12);   
+}
+
+.contents table tr td .a_edit:hover{
+    background-color: rgb(9, 138, 9);   
+}
+
+.contents table tr td input[type="button"]{
+    background-color: rgb(216, 20, 20);
+    font-size: 0.9em;
+}
+
+.contents table tr td input[type="button"]:hover{
+    background-color: rgb(236, 12, 12);
+}
+
+.payrolls select{
+    padding: 0.3em 0.5em;
+}
+
+.add_form{
+    line-height: 2.2em;
+}
+
+.add_form form input[type="text"], .add_form form input[type="tel"]{
+    width: 50%;
+}
+
+.add_form form input[type="tel"], .add_form form input[type="number"]{
+    padding: 0.3em 0.5em;
+}
+
+.add_form form select{
+    padding: 0.2em 0.5em;
+    width: 52%;
+}
+
+.add_form form h4{
+    font-size: 1.3em;
+}
+
+.add_form form input[type="submit"]{
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    border: none;
+    background-color: rgb(39, 39, 180);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add_form form input[type="submit"]:hover{
+    background-color: rgb(51, 51, 233);
+}
+
+.add_form form a{
+    padding: 0.3em 2em;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: rgb(246, 65, 33);
+    color: white;
+}
+
+.add_form form a:hover{
+    background-color: rgb(245, 53, 19);   
+}
+
+.add_form h5{
+    font-size: 1em;
+}
+
+.emp_payroll{
+    line-height: 1.7em;
+}
+
+.emp_payroll input[type="number"], .emp_payroll select{
+    padding: 0.2em 0.5em;
+}
+
+.emp_payroll input[type="number"]{
+    width: 3em;
+}
+
+.emp_payroll input[type="submit"], #Print_p{
+    margin-top: 1em;
+    padding: 0.5em 1.5em;
+    border: none;
+    background-color: rgb(39, 39, 180);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.emp_payroll h4{
+    border-bottom: 1px rgb(36, 35, 35) solid;
+}
+
+.emp_payroll table h4{
+    border-bottom: none;
+}
+
+.emp_payroll table tbody{
+    text-align: left;
+}
+
+.emp_payroll a{
+    padding: 0.3em 2em;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: rgb(246, 65, 33);
+    color: white;
+}
+
+.add_form input[type="password"]{
+    padding: 0.3em 1em;
+    width: 25%;
+}
+
+
+.contain_login img{
+    width: 80%;
+    margin: 5%;
+    padding: 10px;
+    border-bottom: 3px rgb(180, 177, 177) solid;
+    border-right: 3px rgb(167, 159, 159) solid;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 7px;
+}
+
+.contain_login{
+    /* background: linear-gradient(30deg, white, rgb(7, 172, 7), rgb(52, 199, 89), yellow); */
+    /* color: white; */
+    background-color: rgb(213, 220, 226);
+    float: left;
+    width: 100%;
+    padding: 10% 5%;
+    padding-bottom: 50%;
+    position: fixed;
+    font-size: 2.7rem;
+    box-sizing: border-box;
+}
+
+.login h2{
+    margin-top: 10%;
+    border-bottom: 2px rgb(243, 239, 7) solid;
+    margin-bottom: 2%;
+}
+
+.login input{
+    padding: 0.5em 1em;
+    width: 90%;
+}
+
+.login input[type="submit"]{
+    width: 100%;
+    font-size: 1em;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(225, 250, 6);
+    color: rgb(24, 22, 22);
+    padding: 1em 0;
+    border-radius: 5px;
+    border-bottom: black 3px solid;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover{
+    background-color: rgb(192, 174, 10);
+}
